@@ -1,0 +1,58 @@
+.btn-group
+{
+}
+.banana
+{
+}
+.content
+{
+    text-align: center;
+    align-content: center;
+}
+.above
+{
+    height: 13em;
+}
+.rockbutton
+{
+    background-image: url(rock.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    padding: 10em;
+    background-position: center;
+    
+    
+}
+.paperbutton
+{
+background-image: url(paper.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10em;
+    background-position: center;
+    
+}
+.scissorsbutton
+{
+    background-image: url(scissors.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    padding: 10em;
+    background-position: center;
+}
+.bg-color
+{
+    background: linear-gradient(#8F7514, #0B5045, #433503, #751176, #8F2B8F);
+    padding-bottom: 13em;
+    border-left: 3em dotted black;
+    border-right: 3em dotted black;
+
+}
+.btn
+{
+    border-radius: 10em;
+
+}
+.btn:focus, .btn:active{
+    outline: none !important;
+}
