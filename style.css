@@ -1,0 +1,33 @@
+h2
+{
+text-align: center;
+}
+.jumbotron
+{
+    height: 100%;
+    width: 100%;
+}
+h3
+{
+    text-align: center;
+}
+h4{
+    text-align: center; 
+}
+.pagebar
+{
+    height: 10em;
+    background-color: lightgray;
+    
+}
+p{
+    text-align: center;
+}
+.thumbnail
+{
+    size: 80%;
+}
+.profile-img
+{
+    height: 20em;
+}

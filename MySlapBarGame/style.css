@@ -1,0 +1,101 @@
+.btn-group
+{
+ justify-content: right; 
+}
+.garnishbtn
+{
+    background-image: url(bargarnishes.jpeg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    padding: 5em;
+    background-position: center;
+    color: white;
+    font-size: 20px;
+    }
+    .tipbtn
+    {
+    background-image: url(tipreciept.jpg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    padding: 5em;
+    background-position: center;
+    color: white;
+    font-size: 20px;
+    }
+    .fireballbtn
+    {
+    background-image: url(FireballGrandma.jpg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    padding: 5em;
+    background-position: center;
+    color: white;
+    font-size: 20px;
+    }
+.sloppybtn
+{
+background-image: url(Drunk-Guy.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    padding: 5em;
+    background-position: center;
+    color: white;
+    font-size: 20px;
+}
+.slurbtn
+{
+background-image: url(sleepyguy.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    padding: 5em;
+    background-position: center;
+    color: white;
+    font-size: 20px;
+}
+.shotglassbtn
+{
+    background-image: url(shotglass.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    padding: 5em;
+    background-position: center;
+    color: white;
+    font-size: 20px;
+}
+.buttontext
+{
+    font-size: 30px;
+}
+.barphoto
+{
+    height: 400px;
+}
+.actionmessage
+{
+    padding-top: 1em;
+    font-size: 4em;
+}
+.bartender
+{
+    height: 400px;
+    
+}
+h1{
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+}
+.jumbotron
+{
+    color: white;
+}
+.scoretext
+{
+    font-size: 4em;
+}
+.description
+{
+    font-size: 2em;
+    background-color: red;
+    color: white;
+}
