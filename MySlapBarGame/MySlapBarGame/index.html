@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Slap!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container-fluid">
+<div class="jumbotron">
+  <h1>drunk at the bar</h1>
+  <div class="emptybar">
+      <img  class="barphoto" src="emptybar.jpg" alt="empty bar">
+         
+  </div>
+  </div>
+
+
+
+  <div class="row toprow">
+        <div class="col-xs-12 col-md-4 healthcounter">
+            <div class="text-center">
+                <p class="description">
+                    Its a cocktail bar, not a frathouse.  Behave accordingly, or you'll be asked to leave.
+                </p>
+            <img class="bartender" src="bartender1.jpg" alt="bartender">
+            </div> 
+            <h1 id="healthcounter" class="text-center scoretext"></h1>
+        <p class="text-center">
+        </p>
+            <p class="text-center actionmessage" id="message">Let's Drink!' 
+            </p>
+        </div>
+
+
+
+        <div class="col-xs-12 col-md-4 text-center"> 
+<div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-default garnishbtn" onclick="garnish()"></button>
+</div>
+<span><p class="buttontext">Help yourself to a garnish.<br><br></p></span>
+
+<div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-default tipbtn" onclick="tip()"></button>
+</div>
+<span><p class="buttontext">Leave a cheap tip.<br><br></p></span>
+
+<div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-default fireballbtn" onclick="fireball()"></button>
+</div>
+<span><p class="buttontext">Order a round of Fireball shots.<br><br></p></span>
+
+        </div>
+
+
+
+        <div class="col-xs-12 col-md-4 text-center"><p>
+
+
+
+<div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-default sloppybtn" onclick="sloppy()"></button>
+</div>
+<span><p class="buttontext">You are looking sloppy.<br><br></p></span>
+
+
+<div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-default slurbtn" onclick="slur()"></button>
+</div>
+<span><p class="buttontext">Take a bar nap.<br><br><p></span>
+
+</div>
+
+
+
+<div class="btn-group redshotbutton" role="group" aria-label="...">
+    <button type="button" onclick="buyshot()" class="btn btn-default shotglassbtn"></button>
+</div>
+<span><p class="buttontext text-center">Buy the bartender a shot!<br><br></p></span>
+        </div>
+    </div>
+
+</div>
+ <script src="app.js"></script>
+</body>
+
+</html>
